@@ -52,7 +52,7 @@ ggplot(wk38, aes(weeks, y = ili_cases_enrolled, color = "ILI", group = sites)) +
     values = c(ILI = "blue", SARI = "red"),  # Map colors to aesthetics
     name = "Cases"
   ) +
-  theme(legend.position = "bottom")
+  theme(legend.position = "top")
 
 
 
