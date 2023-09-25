@@ -49,7 +49,7 @@ ggplot(wk38, aes(weeks, y = ili_cases_enrolled, color = "ILI", group = sites)) +
   ) +
   theme(plot.title = element_text(hjust = 0.5)) +
   scale_color_manual(
-    values = c(ILI = "blue", SARI = "red"),  # Map colors to aesthetics
+    values = c(ILI = "blue", SARI = "red"),  
     name = "Cases"
   ) +
   theme(legend.position = "top")
