@@ -10,10 +10,10 @@ pacman::p_load(
   epikit,        # creating age category
   gtsummary,     # summarizing/create data
   ggExtra,       # 
-  scales,        # percents in tables
-  tsibble,      # creating epi weeks
-  viridis,      # pick a color scheme option
-  apyramid,      # Age Pyramid 
+  scales,        
+  tsibble,      
+  viridis,      
+  apyramid,      
   kableExtra,     
   knitr,
   splitstackshape,
